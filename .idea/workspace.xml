@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="025935c9-98f4-4757-8d35-397e0c7e5e5a" name="Changes" comment="Tahap 1. Menggunakan Inheritance.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analisa.md" beforeDir="false" afterPath="$PROJECT_DIR$/analisa.md" afterDir="false" />
+    <list default="true" id="025935c9-98f4-4757-8d35-397e0c7e5e5a" name="Changes" comment="Tahap 2. Menggunakan Interface">
       <change beforePath="$PROJECT_DIR$/src/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Duck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -101,11 +99,20 @@
       <option name="project" value="LOCAL" />
       <updated>1711422367283</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tahap 2. Menggunakan Interface">
+      <option name="closed" value="true" />
+      <created>1711423028926</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711423028926</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tahap 1. Menggunakan Inheritance." />
-    <option name="LAST_COMMIT_MESSAGE" value="Tahap 1. Menggunakan Inheritance." />
+    <MESSAGE value="Tahap 2. Menggunakan Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tahap 2. Menggunakan Interface" />
   </component>
 </project>

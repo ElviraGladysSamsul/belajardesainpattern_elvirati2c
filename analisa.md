@@ -1,11 +1,11 @@
 Analisa
-Menggunakan interface untuk mendefinisikan perilaku bersuara dan terbang membuat kode lebih modular. Dengan cara ini, perilaku tersebut dapat diimplementasikan secara terpisah dari struktur kelas induk, memungkinkan untuk fleksibilitas dalam menambah atau mengubah perilaku tanpa memengaruhi struktur kelas lainnya.
+Menerapkan Strategy Pattern memungkinkan pemisahan perilaku bersuara dan terbang menjadi objek terpisah. Ini meningkatkan fleksibilitas dan modularitas kode, karena setiap perilaku dapat diubah atau ditambahkan secara independen tanpa memengaruhi kelas bebek.
 
-Penerapan polimorfisme dengan menggunakan interface memungkinkan berbagai implementasi perilaku bersuara dan terbang. Ini berarti kelas turunan dapat memiliki perilaku bersuara atau terbang yang berbeda-beda sesuai kebutuhan, meningkatkan fleksibilitas dan reusabilitas kode.
+Fleksibilitas tinggi dalam mengubah perilaku bersuara atau terbang pada saat runtime dengan mudah. Dengan menggunakan setter methods setQuackBehavior() dan setFlyBehavior(), perilaku bebek dapat diubah sesuai kebutuhan pada saat runtime tanpa perlu mengubah struktur kelas.
 
-Kelas turunan dapat mengimplementasikan lebih dari satu perilaku bersuara atau terbang jika diperlukan. Hal ini memungkinkan variasi perilaku yang lebih kompleks dan spesifik untuk setiap jenis bebek.
+Memungkinkan penggunaan berbagai macam perilaku bersuara dan terbang tanpa perubahan pada kelas bebek. Dengan adanya kelas-kelas perilaku (seperti Quack, Squeak, FlyWithWings, dll.), kita dapat mengganti perilaku bebek dengan berbagai kombinasi tanpa merubah kode di kelas bebek itu sendiri.
 
 Keterangan
-Masih terbatas dalam fleksibilitas saat ingin mengubah perilaku bersuara atau terbang secara dinamis pada saat runtime. Karena perilaku bersuara dan terbang diimplementasikan secara statis, perubahan perilaku hanya dapat dilakukan melalui perubahan kode dan tidak dapat diubah pada saat runtime tanpa melakukan perubahan pada kode.
+Memperkenalkan kompleksitas tambahan ke dalam kode karena memerlukan lebih banyak kelas dan objek untuk mengelola strategi-strategi perilaku. Hal ini dapat membuat kode menjadi lebih sulit untuk dipahami dan dipelajari, terutama bagi pengembang yang kurang berpengalaman.
 
-Jika ada perubahan pada perilaku bersuara atau terbang, perubahan tersebut masih perlu diterapkan pada semua kelas turunan yang terkait. Hal ini dapat menyebabkan overhead dalam pemeliharaan kode jika ada perubahan pada perilaku yang mempengaruhi banyak kelas turunan.
+Dapat menjadi terlalu abstrak untuk aplikasi sederhana, yang dapat menyulitkan pemahaman bagi pengembang yang kurang berpengalaman. Penggunaan pola desain seperti Strategy Pattern memerlukan pemahaman yang kuat tentang konsep-konsep pemrograman berorientasi objek dan pola desain, yang mungkin tidak selalu sesuai untuk semua pengembangan perangkat lunak.
