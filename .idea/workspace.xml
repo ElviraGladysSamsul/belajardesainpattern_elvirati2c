@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="025935c9-98f4-4757-8d35-397e0c7e5e5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimUDuck.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/analisa.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="025935c9-98f4-4757-8d35-397e0c7e5e5a" name="Changes" comment="Tahap 1. Menggunakan Inheritance.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +59,28 @@
       <option name="presentableId" value="Default" />
       <updated>1711420527373</updated>
     </task>
+    <task id="LOCAL-00001" summary="Tahap 1. Menggunakan Inheritance.">
+      <option name="closed" value="true" />
+      <created>1711421509942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711421509942</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Tahap 1. Menggunakan Inheritance.">
+      <option name="closed" value="true" />
+      <created>1711421582410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711421582410</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tahap 1. Menggunakan Inheritance." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tahap 1. Menggunakan Inheritance." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
