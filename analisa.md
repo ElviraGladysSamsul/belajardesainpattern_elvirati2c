@@ -1,6 +1,11 @@
 Analisa
-- Menggunakan pewarisan untuk mengatur perilaku bebek, yaitu mewariskan perilaku dari kelas "induk" (Duck) ke kelas "anak" (MallardDuck, RedHeadDuck, RubberDuck, dan WoodenDuck).
-- Setiap bebek secara otomatis memiliki kemampuan bersuara ("quack") dan terbang ("fly") yang diwariskan dari kelas Duck.
-- Contohnya, ketika membuat bebek MallardDuck, kita hanya perlu menentukan bagaimana bebek itu terlihat (metode "display"), karena perilaku bersuara dan terbang sudah diatur secara otomatis.
-- Pendekatan ini memungkinkan penambahan jenis bebek baru dengan perilaku yang berbeda tanpa menulis ulang kode yang sama.
-- Dengan pewarisan, perilaku umum diatur di satu tempat (kelas Duck) dan dapat diubah tanpa memengaruhi kelas lain secara terpisah, sehingga memudahkan pemelajaran dan pemahaman kode.
+Menggunakan interface untuk mendefinisikan perilaku bersuara dan terbang membuat kode lebih modular. Dengan cara ini, perilaku tersebut dapat diimplementasikan secara terpisah dari struktur kelas induk, memungkinkan untuk fleksibilitas dalam menambah atau mengubah perilaku tanpa memengaruhi struktur kelas lainnya.
+
+Penerapan polimorfisme dengan menggunakan interface memungkinkan berbagai implementasi perilaku bersuara dan terbang. Ini berarti kelas turunan dapat memiliki perilaku bersuara atau terbang yang berbeda-beda sesuai kebutuhan, meningkatkan fleksibilitas dan reusabilitas kode.
+
+Kelas turunan dapat mengimplementasikan lebih dari satu perilaku bersuara atau terbang jika diperlukan. Hal ini memungkinkan variasi perilaku yang lebih kompleks dan spesifik untuk setiap jenis bebek.
+
+Keterangan
+Masih terbatas dalam fleksibilitas saat ingin mengubah perilaku bersuara atau terbang secara dinamis pada saat runtime. Karena perilaku bersuara dan terbang diimplementasikan secara statis, perubahan perilaku hanya dapat dilakukan melalui perubahan kode dan tidak dapat diubah pada saat runtime tanpa melakukan perubahan pada kode.
+
+Jika ada perubahan pada perilaku bersuara atau terbang, perubahan tersebut masih perlu diterapkan pada semua kelas turunan yang terkait. Hal ini dapat menyebabkan overhead dalam pemeliharaan kode jika ada perubahan pada perilaku yang mempengaruhi banyak kelas turunan.

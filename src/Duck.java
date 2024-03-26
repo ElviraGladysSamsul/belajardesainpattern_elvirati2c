@@ -1,46 +1,62 @@
+interface Quackable {
+    void quack();
+}
+
+interface Flyable {
+    void fly();
+}
+
 abstract class Duck {
-    void quack(){
-        System.out.println("Qwek Qwek");
-    }
-
-    void swim(){
-        System.out.println("Berenang");
-    }
-
     abstract void display();
 
-    void fly(){
-        System.out.println("Terbang");
+    void swim() {
+        System.out.println("Berenang");
     }
 }
 
-class MallardDuck extends Duck{
+class MallardDuck extends Duck implements Quackable, Flyable {
+
     @Override
     void display() {
         System.out.println("Tampilan MallardDuck");
     }
+
+    @Override
+    public void quack() {
+        System.out.println("Qwek Qwek");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Terbang");
+    }
 }
 
-class RedHeadDuck extends Duck{
+class RedheadDuck extends Duck implements Quackable, Flyable {
+    @Override
+    public void quack() {
+        System.out.println("Qwek Qwek");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("Terbang");
+    }
+
     @Override
     void display() {
         System.out.println("Tampilan RedHeadDuck");
     }
 }
 
-class RubberDuck extends Duck{
+class RubberDuck extends Duck implements Quackable {
+    @Override
+    public void quack() {
+        System.out.println("Squeak");
+    }
     @Override
     void display() {
         System.out.println("Tampilan RubberDuck");
-    }
-    @Override
-    void quack() {
-        System.out.println("Bunyinya squeek, bukan qwak");
-    }
-
-    @Override
-    void fly() {
-        // Tidak ada implementasi, karena bebek mainan tidak dapat terbang
     }
 }
 
@@ -49,18 +65,16 @@ class WoodenDuck extends Duck {
     void display() {
         System.out.println("Tampilan WoodenDuck");
     }
+}
+
+class ToyDuck extends Duck implements Flyable {
     @Override
-    void quack(){
-        // Tidak ada implementasi, karena bebek mainan tidak dapat bersuara
+    public void fly() {
+        System.out.println("Terbang seperti mainan");
     }
 
     @Override
-    void swim(){
-        System.out.println("Mengambang");
-    }
-
-    @Override
-    void fly(){
-        // Tidak ada implementasi, karena bebek mainan tidak dapat terbang
+    void display() {
+        System.out.println("Tampilan ToyDuck");
     }
 }
