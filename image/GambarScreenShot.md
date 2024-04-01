@@ -1,14 +1,14 @@
 //SS Struktur Folder Akhir dari Project
-![WhatsApp Image 2024-04-01 at 15 06 54_65cadc86](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/image/146049473/8d00cdb1-e241-478c-bb71-d685970411ed)
+![StrukturFolder](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/image/146049473/ec86e644-b61f-41ed-b6fb-97357e7200d1)
 
 //SS Output Tahap 1: Menggunakan Inheritance
-![image](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/image/146049473/16798c8e-8dd2-4e55-82b1-cbe825320a8c)
+![Tahap1MenggunakanInheritance png](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/image/146049473/0d191481-e8b3-4367-818f-9f36dd736157)
 
 //SS Output Tahap 2: Menggunakan Interface
-![image](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/image/146049473/b329eeb4-9fce-4eee-8e10-d67a8b216531)
+![Tahap2MenggunakanInterface png](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/image/146049473/a1f1b79f-9960-4ca4-b941-427e4dce40ee)
 
 //SS Output Tahap 3: Menggunakan Strategy Pattern
-![image](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/image/146049473/a9cc10ee-e1ae-4f8a-aa1b-cb11d5009bf8)
+![Tahap3MenggunakanStrategyPattern](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/image/146049473/ca695138-3f5e-46ff-a102-f2b6fbbd3cb6)
 
 //SS Output Tugas Shipping Strategy
-![WhatsApp Image 2024-04-01 at 15 04 33_aa33a095](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/image/146049473/e9b3f42d-68bc-4bf4-89ad-f41e79a2c735)
+![TugasShippingStrategy](https://github.com/ElviraGladysSamsul/belajardesainpattern_elvirati2c/image/146049473/03900481-e7fe-4774-a209-1fdfab9f6b62)
