@@ -1,130 +1,56 @@
-interface QuackBehavior {
-    void quack();
-}
-
-interface FlyBehavior {
-    void fly();
-}
-
-class Quack implements QuackBehavior {
-    public void quack() {
-        System.out.println("Qwek - Qwek");
-    }
-}
-
-class Squeak implements QuackBehavior {
-    public void quack() {
-        System.out.println("Squeak");
-    }
-}
-
-class MuteQuack implements QuackBehavior {
-    public void quack() {
-        System.out.println("Tidak Bisa Bersuara");
-    }
-}
-
-
-class FlyWithWings implements FlyBehavior {
-    public void fly() {
-        System.out.println("Terbang");
-    }
-}
-
-class FlyNoWay implements FlyBehavior {
-    public void fly() {
-        System.out.println("Tidak bisa terbang");
-    }
-}
-
-class FlyWithRocketPower implements FlyBehavior {
-
-    @Override
-    public void fly() {
-        System.out.println("Cool, terbang menggunakan rocket");
-    }
-}
-
 abstract class Duck {
-    QuackBehavior quackBehavior;
-    FlyBehavior flyBehavior;
-
-    abstract void display();
-
+    void quack() {
+        System.out.println("Kwek Kwek");
+    }
     void swim() {
-        System.out.println("Berenang");
+        System.out.println("Berenang di air");
     }
-
-    void performQuack() {
-        quackBehavior.quack();
-    }
-
-    void performFly() {
-        flyBehavior.fly();
-    }
-
-    void setFlyBehavior(FlyBehavior fb) {
-        flyBehavior = fb;
-    }
-    void setQuackBehavior(QuackBehavior qb) {
-        quackBehavior = qb;
+    abstract void display();
+    void fly() {
+        System.out.println("Terbang di udara");
     }
 }
-
 class MallardDuck extends Duck {
-    public MallardDuck() {
-        quackBehavior = new Quack();
-        flyBehavior = new FlyWithWings();
-    }
-
     @Override
     void display() {
-        System.out.println("Tampilan MallardDuck");
+        System.out.println("Penampilan Bebek Mallard: Tubuhnya besar dengan warna bulu hijau kebiruan, paruh kuning, dan ekor melengkung.");
     }
 }
-
-class RedheadDuck extends Duck {
-    public RedheadDuck() {
-        quackBehavior = new Quack();
-        flyBehavior = new FlyWithWings();
-    }
-
+class RedHeadDuck extends Duck {
     @Override
     void display() {
-        System.out.println("Tampilan ReadHeadDuck");
+        System.out.println("Penampilan Bebek Kepala Merah: Tubuhnya agak besar dengan kepala berwarna merah cerah, bulu lainnya berwarna cokelat.");
     }
 }
-
 class RubberDuck extends Duck {
-    public RubberDuck() {
-        quackBehavior = new Squeak();
-        flyBehavior = new FlyNoWay();
-    }
-
-    void display () {
-        System.out.println("Tampilan RubberDuck");
-    }
-}
-
-class WoodenDuck extends Duck {
-    public WoodenDuck() {
-        quackBehavior = new Quack();
-        flyBehavior = new FlyNoWay();
-    }
-
-    void display () {
-        System.out.println("Tampilan WoodenDuck");
-    }
-}
-
-class ModelDuck extends Duck {
-    ModelDuck(){
-        flyBehavior = new FlyNoWay();
-        quackBehavior = new Quack();
-    }
-
     @Override
     void display() {
-        System.out.println("Tampilan ModelDuck");
+        System.out.println("Penampilan Bebek Karet: Terbuat dari bahan karet, berwarna kuning cerah, dan memiliki bentuk yang bulat.");
+    }
+    @Override
+    void quack() {
+        System.out.println("Bunyi seperti desis, bukan kwek");
+    }
+    @Override
+    void fly() {
+        // Tidak ada implementasi, bebek karet tidak dapat terbang
+    }
+}
+class WoodenDuck extends Duck {
+    @Override
+    void display() {
+        System.out.println("Penampilan Bebek Kayu: Terbuat dari kayu dengan warna cokelat tua, memiliki tampilan yang sederhana dengan detail yang terbatas.");
+    }
+    @Override
+    void quack() {
+        // Tidak ada implementasi, bebek kayu tidak dapat bersuara
+    }
+    @Override
+    void swim() {
+        System.out.println("Mengapung di air");
+    }
+    @Override
+    void fly() {
+        // Tidak ada implementasi, bebek kayu tidak dapat terbang
     }
 }

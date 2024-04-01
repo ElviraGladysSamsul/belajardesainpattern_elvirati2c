@@ -1,11 +1,11 @@
-Analisa
-Menerapkan Strategy Pattern memungkinkan pemisahan perilaku bersuara dan terbang menjadi objek terpisah. Ini meningkatkan fleksibilitas dan modularitas kode, karena setiap perilaku dapat diubah atau ditambahkan secara independen tanpa memengaruhi kelas bebek.
+Analisa:
 
-Fleksibilitas tinggi dalam mengubah perilaku bersuara atau terbang pada saat runtime dengan mudah. Dengan menggunakan setter methods setQuackBehavior() dan setFlyBehavior(), perilaku bebek dapat diubah sesuai kebutuhan pada saat runtime tanpa perlu mengubah struktur kelas.
+-Pendekatan yang digunakan cukup sederhana dan mudah untuk dipahami.
+-Memanfaatkan konsep pewarisan (inheritance) untuk membagi perilaku antara kelas induk dan kelas-kelas turunannya.
+-Setiap jenis bebek memiliki perilaku bersuara dan terbang yang sama seperti bebek lainnya.
 
-Memungkinkan penggunaan berbagai macam perilaku bersuara dan terbang tanpa perubahan pada kelas bebek. Dengan adanya kelas-kelas perilaku (seperti Quack, Squeak, FlyWithWings, dll.), kita dapat mengganti perilaku bebek dengan berbagai kombinasi tanpa merubah kode di kelas bebek itu sendiri.
+Kelemahan:
 
-Keterangan
-Memperkenalkan kompleksitas tambahan ke dalam kode karena memerlukan lebih banyak kelas dan objek untuk mengelola strategi-strategi perilaku. Hal ini dapat membuat kode menjadi lebih sulit untuk dipahami dan dipelajari, terutama bagi pengembang yang kurang berpengalaman.
-
-Dapat menjadi terlalu abstrak untuk aplikasi sederhana, yang dapat menyulitkan pemahaman bagi pengembang yang kurang berpengalaman. Penggunaan pola desain seperti Strategy Pattern memerlukan pemahaman yang kuat tentang konsep-konsep pemrograman berorientasi objek dan pola desain, yang mungkin tidak selalu sesuai untuk semua pengembangan perangkat lunak.
+-Jika terjadi perubahan pada perilaku bersuara atau terbang, perubahan tersebut harus diterapkan di semua kelas turunan, yang dapat menyulitkan dan membutuhkan modifikasi pada banyak bagian kode.
+-Tidak ada fleksibilitas untuk mengubah perilaku bersuara atau terbang secara dinamis pada saat program dijalankan (runtime).
+-Dengan kata lain, meskipun pendekatan ini sederhana, namun ketika terjadi perubahan pada perilaku tertentu, akan membutuhkan usaha yang besar karena perubahan harus dilakukan di banyak tempat dalam kode. Selain itu, perilaku tidak dapat diubah secara dinamis saat program berjalan, yang mengurangi fleksibilitas desain.

@@ -1,12 +1,24 @@
 public class Main {
-    public static void main(String[] args){
-        Duck mallard = new MallardDuck();
-        mallard.performQuack();
-        mallard.performFly();
+    public static void main(String[] args) {
+        MallardDuck mallard = new MallardDuck();
+        mallard.quack();
+        mallard.swim();
+        mallard.display();
+        mallard.fly();
 
-        Duck modelduck = new ModelDuck();
-        modelduck.performFly(); // Akan memanggil constructor modelduck(FlyNoWay())
-        modelduck.setFlyBehavior(new FlyWithRocketPower());
-        modelduck.performFly();
+        System.out.println();
+
+        RubberDuck rubber = new RubberDuck();
+        rubber.quack();
+        rubber.swim();
+        rubber.display();
+        rubber.fly();
+
+        System.out.println();
+        WoodenDuck wood = new WoodenDuck();
+        wood.quack();
+        wood.swim();
+        wood.display();
+        wood.fly();
     }
 }
