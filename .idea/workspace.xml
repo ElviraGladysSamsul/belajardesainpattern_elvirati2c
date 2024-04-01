@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="025935c9-98f4-4757-8d35-397e0c7e5e5a" name="Changes" comment="Revisi Tahap 3: Menggunakan Strategy Pattern">
-      <change afterPath="$PROJECT_DIR$/src/ShippingStrategy.java" afterDir="false" />
+    <list default="true" id="025935c9-98f4-4757-8d35-397e0c7e5e5a" name="Changes" comment="Penambahan Tugas Shipping Strategy dan Analisanya">
+      <change afterPath="$PROJECT_DIR$/image/GambarScreenShot.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analisa.md" beforeDir="false" afterPath="$PROJECT_DIR$/analisa.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +52,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SEMESTER 4\Praktikum Desain Pattern - Reza\DesainPattern\SimUDuck\src" />
       <recent name="D:\SEMESTER 4\Praktikum Desain Pattern - Reza\DesainPattern\SimUDuck" />
     </key>
   </component>
@@ -160,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711954981655</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Penambahan Tugas Shipping Strategy dan Analisanya">
+      <option name="closed" value="true" />
+      <created>1711957240785</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711957240785</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -170,6 +177,7 @@
     <MESSAGE value="Revisi Tahap 1: Menggunakan Inheritance" />
     <MESSAGE value="Revisi Tahap 2: Menggunakan Interface" />
     <MESSAGE value="Revisi Tahap 3: Menggunakan Strategy Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revisi Tahap 3: Menggunakan Strategy Pattern" />
+    <MESSAGE value="Penambahan Tugas Shipping Strategy dan Analisanya" />
+    <option name="LAST_COMMIT_MESSAGE" value="Penambahan Tugas Shipping Strategy dan Analisanya" />
   </component>
 </project>
