@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="025935c9-98f4-4757-8d35-397e0c7e5e5a" name="Changes" comment="Revisi Tahap 1: Menggunakan Inheritance">
+    <list default="true" id="025935c9-98f4-4757-8d35-397e0c7e5e5a" name="Changes" comment="Revisi Tahap 2: Menggunakan Interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analisa.md" beforeDir="false" afterPath="$PROJECT_DIR$/analisa.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Duck.java" afterDir="false" />
@@ -141,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711951101634</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Revisi Tahap 2: Menggunakan Interface">
+      <option name="closed" value="true" />
+      <created>1711953063229</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711953063229</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +157,7 @@
     <MESSAGE value="Tahap 2. Menggunakan Interface" />
     <MESSAGE value="Tahap 3. Menggunakan Strategy Pattern" />
     <MESSAGE value="Revisi Tahap 1: Menggunakan Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revisi Tahap 1: Menggunakan Inheritance" />
+    <MESSAGE value="Revisi Tahap 2: Menggunakan Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revisi Tahap 2: Menggunakan Interface" />
   </component>
 </project>
